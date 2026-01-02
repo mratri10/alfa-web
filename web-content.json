@@ -1,0 +1,1101 @@
+{
+    "site_meta": {
+        "title": "ALFA Saiyo Sakato",
+        "description": "Ekosistem pariwisata dan layanan terpadu di Kabupaten Agam. One Stop Service untuk kenyamanan perjalanan Anda.",
+        "favicon": "./src/logo.png",
+        "contact_global": {
+            "whatsapp": "+6281234567890",
+            "email": "hello@alfasaiyosakato.com"
+        }
+    },
+    "brands": [
+        {
+            "id": "brand_01",
+            "slug": "alfa-wash",
+            "title": "Alfa Wash",
+            "tagline": "Kilap Kilat Sebelum Berangkat",
+            "description": "Layanan pencucian kendaraan profesional dengan teknologi hidrolik terkini. Tersedia di berbagai titik strategis Agam.",
+            "banner": [
+                "./src/cuci/1.png",
+                "./src/cuci/2.png",
+                "./src/cuci/3.png"
+            ],
+            "locations": [
+                {
+                    "id": "loc_wash_01",
+                    "name": "Cabang Pusat (Maninjau)",
+                    "is_main": true,
+                    "street": "Jl. Raya Maninjau - Bukittinggi Km 5, Kab. Agam",
+                    "latitude": "-0.3069",
+                    "longitude": "100.2291",
+                    "maps_link": "https://maps.google.com/?q=...",
+                    "phone_specific": "+6281234567891"
+                }
+            ],
+            "opening_hours": "Setiap Hari, 08.00 - 18.00 WIB",
+            "contact": {
+                "email": "wash@alfasaiyosakato.com",
+                "whatsapp": "+6281234567891"
+            },
+            "features": [
+                "Hidrolik H Type",
+                "Snow Wash Premium",
+                "Ruang Tunggu AC"
+            ],
+            "categories": [
+                {
+                    "id": 1,
+                    "name": "Motor Services",
+                    "slug": "motor-services"
+                },
+                {
+                    "id": 2,
+                    "name": "Mobil Services",
+                    "slug": "mobil-services"
+                },
+                {
+                    "id": 3,
+                    "name": "Detailing & Perawatan",
+                    "slug": "detailing"
+                }
+            ],
+            "services": [
+                {
+                    "id": "wash_srv_001",
+                    "name": "Cuci Body Motor (Kecil/Bebek)",
+                    "category_id": 1,
+                    "price": 15000,
+                    "currency": "IDR",
+                    "description": "Pencucian body luar, spakbor, dan semir ban."
+                },
+                {
+                    "id": "wash_srv_002",
+                    "name": "Cuci Body Motor (Besar/Sport)",
+                    "category_id": 1,
+                    "price": 20000,
+                    "currency": "IDR",
+                    "description": "Pencucian detail untuk motor sport atau >150cc."
+                },
+                {
+                    "id": "wash_srv_003",
+                    "name": "Cuci Mobil Regular",
+                    "category_id": 2,
+                    "price": 40000,
+                    "currency": "IDR",
+                    "description": "Cuci body luar dan semir ban tanpa vacuum."
+                },
+                {
+                    "id": "wash_srv_004",
+                    "name": "Cuci Mobil Hidrolik (All In)",
+                    "category_id": 2,
+                    "price": 50000,
+                    "currency": "IDR",
+                    "description": "Angkat body, cuci kolong/chassis, body, vacuum interior, semir ban."
+                },
+                {
+                    "id": "wash_srv_005",
+                    "name": "Cuci Mobil Large/Luxury",
+                    "category_id": 2,
+                    "price": 65000,
+                    "currency": "IDR",
+                    "description": "Khusus mobil besar (Pajero/Fortuner/Alphard)."
+                },
+                {
+                    "id": "wash_srv_006",
+                    "name": "Paket Jamur Kaca",
+                    "category_id": 3,
+                    "price": 100000,
+                    "currency": "IDR",
+                    "description": "Membersihkan jamur pada kaca depan dan samping."
+                },
+                {
+                    "id": "wash_srv_007",
+                    "name": "Salon Interior Express",
+                    "category_id": 3,
+                    "price": 150000,
+                    "currency": "IDR",
+                    "description": "Pembersihan noda ringan di dashboard dan door trim."
+                },
+                {
+                    "id": "wash_srv_008",
+                    "name": "Cuci Mesin (Engine Degreasing)",
+                    "category_id": 3,
+                    "price": 75000,
+                    "currency": "IDR",
+                    "description": "Pembersihan kerak oli dan debu di ruang mesin."
+                }
+            ]
+        },
+        {
+            "id": "brand_02",
+            "slug": "alfa-brew",
+            "title": "Alfa Brew",
+            "tagline": "Cita Rasa Kopi Asli Agam",
+            "description": "Nikmati kopi lokal terbaik dengan pemandangan alam. Hadir dengan konsep Cafe menetap dan Mobile Truck.",
+            "banner": [
+                "./src/cafe/1.png",
+                "./src/cafe/2.png",
+                "./src/cafe/3.png"
+            ],
+            "locations": [
+                {
+                    "id": "loc_brew_01",
+                    "name": "Alfa Brew Terrace (Pusat)",
+                    "is_main": true,
+                    "street": "Jl. Raya Maninjau - Bukittinggi Km 5 (Lantai 2)",
+                    "latitude": "-0.3069",
+                    "longitude": "100.2291",
+                    "maps_link": "https://maps.google.com/?q=...",
+                    "phone_specific": "+6281234567892"
+                }
+            ],
+            "opening_hours": "Setiap Hari, 10.00 - 22.00 WIB",
+            "contact": {
+                "email": "brew@alfasaiyosakato.com",
+                "whatsapp": "+6281234567892"
+            },
+            "features": [
+                "Free Wi-Fi",
+                "Live Music (Weekend)",
+                "View Danau"
+            ],
+            "categories": [
+                {
+                    "id": 1,
+                    "name": "Coffee Series",
+                    "slug": "coffee"
+                },
+                {
+                    "id": 2,
+                    "name": "Non-Coffee",
+                    "slug": "non-coffee"
+                },
+                {
+                    "id": 3,
+                    "name": "Makanan Berat",
+                    "slug": "main-course"
+                },
+                {
+                    "id": 4,
+                    "name": "Snack & Dessert",
+                    "slug": "snack"
+                }
+            ],
+            "products": [
+                {
+                    "id": "brew_prod_001",
+                    "name": "Kopi Tubruk Agam",
+                    "category_id": 1,
+                    "price": 15000,
+                    "currency": "IDR",
+                    "description": "Kopi robusta lokal seduh tradisional."
+                },
+                {
+                    "id": "brew_prod_002",
+                    "name": "Kopi Talua (Telur) Khas",
+                    "category_id": 1,
+                    "price": 18000,
+                    "currency": "IDR",
+                    "description": "Kopi dicampur kuning telur dikocok creamy."
+                },
+                {
+                    "id": "brew_prod_003",
+                    "name": "Espresso Single",
+                    "category_id": 1,
+                    "price": 12000,
+                    "currency": "IDR",
+                    "description": "Full body espresso shot."
+                },
+                {
+                    "id": "brew_prod_004",
+                    "name": "Americano Hot/Ice",
+                    "category_id": 1,
+                    "price": 18000,
+                    "currency": "IDR",
+                    "description": "Espresso dengan tambahan air."
+                },
+                {
+                    "id": "brew_prod_005",
+                    "name": "Cappuccino",
+                    "category_id": 1,
+                    "price": 22000,
+                    "currency": "IDR",
+                    "description": "Espresso, steamed milk, dan foam tebal."
+                },
+                {
+                    "id": "brew_prod_006",
+                    "name": "Caffe Latte",
+                    "category_id": 1,
+                    "price": 22000,
+                    "currency": "IDR",
+                    "description": "Espresso dengan susu steamed lembut."
+                },
+                {
+                    "id": "brew_prod_007",
+                    "name": "Alfa Signature Gula Aren",
+                    "category_id": 1,
+                    "price": 25000,
+                    "currency": "IDR",
+                    "description": "Kopi susu kekinian dengan gula aren asli."
+                },
+                {
+                    "id": "brew_prod_008",
+                    "name": "Caramel Macchiato",
+                    "category_id": 1,
+                    "price": 28000,
+                    "currency": "IDR",
+                    "description": "Latte dengan sirup vanila dan saus karamel."
+                },
+                {
+                    "id": "brew_prod_009",
+                    "name": "Mochaccino",
+                    "category_id": 1,
+                    "price": 26000,
+                    "currency": "IDR",
+                    "description": "Perpaduan kopi dan coklat premium."
+                },
+                {
+                    "id": "brew_prod_010",
+                    "name": "Teh Talua (Teh Telur)",
+                    "category_id": 2,
+                    "price": 15000,
+                    "currency": "IDR",
+                    "description": "Minuman penambah stamina khas Minang."
+                },
+                {
+                    "id": "brew_prod_011",
+                    "name": "Lemon Tea Hot/Ice",
+                    "category_id": 2,
+                    "price": 15000,
+                    "currency": "IDR",
+                    "description": "Teh dengan perasan jeruk lemon segar."
+                },
+                {
+                    "id": "brew_prod_012",
+                    "name": "Matcha Latte",
+                    "category_id": 2,
+                    "price": 25000,
+                    "currency": "IDR",
+                    "description": "Bubuk matcha jepang dengan susu segar."
+                },
+                {
+                    "id": "brew_prod_013",
+                    "name": "Chocolate Classic",
+                    "category_id": 2,
+                    "price": 24000,
+                    "currency": "IDR",
+                    "description": "Coklat panas/dingin kental dan manis."
+                },
+                {
+                    "id": "brew_prod_014",
+                    "name": "Jus Alpukat",
+                    "category_id": 2,
+                    "price": 20000,
+                    "currency": "IDR",
+                    "description": "Jus alpukat mentega dengan susu coklat."
+                },
+                {
+                    "id": "brew_prod_015",
+                    "name": "Jus Jeruk Peras",
+                    "category_id": 2,
+                    "price": 18000,
+                    "currency": "IDR",
+                    "description": "Jeruk peras murni segar."
+                },
+                {
+                    "id": "brew_prod_016",
+                    "name": "Nasi Goreng Kampung",
+                    "category_id": 3,
+                    "price": 25000,
+                    "currency": "IDR",
+                    "description": "Nasi goreng bumbu rumahan dengan telur ceplok."
+                },
+                {
+                    "id": "brew_prod_017",
+                    "name": "Mie Goreng Jawa",
+                    "category_id": 3,
+                    "price": 25000,
+                    "currency": "IDR",
+                    "description": "Mie goreng manis gurih dengan suwiran ayam."
+                },
+                {
+                    "id": "brew_prod_018",
+                    "name": "Ayam Geprek Sambal Bawang",
+                    "category_id": 3,
+                    "price": 28000,
+                    "currency": "IDR",
+                    "description": "Ayam crispy dengan sambal bawang pedas + nasi."
+                },
+                {
+                    "id": "brew_prod_019",
+                    "name": "Rice Bowl Sapi Lada Hitam",
+                    "category_id": 3,
+                    "price": 35000,
+                    "currency": "IDR",
+                    "description": "Nasi mangkuk dengan tumis sapi lada hitam."
+                },
+                {
+                    "id": "brew_prod_020",
+                    "name": "Spaghetti Bolognese",
+                    "category_id": 3,
+                    "price": 30000,
+                    "currency": "IDR",
+                    "description": "Pasta dengan saus daging tomat."
+                },
+                {
+                    "id": "brew_prod_021",
+                    "name": "Pisang Goreng Keju Susu",
+                    "category_id": 4,
+                    "price": 18000,
+                    "currency": "IDR",
+                    "description": "Pisang kepok goreng tabur keju melimpah."
+                },
+                {
+                    "id": "brew_prod_022",
+                    "name": "Roti Bakar Coklat Keju",
+                    "category_id": 4,
+                    "price": 20000,
+                    "currency": "IDR",
+                    "description": "Roti tawar bakar isi coklat dan keju."
+                },
+                {
+                    "id": "brew_prod_023",
+                    "name": "Kentang Goreng (French Fries)",
+                    "category_id": 4,
+                    "price": 18000,
+                    "currency": "IDR",
+                    "description": "Kentang goreng renyah dengan saus sambal."
+                },
+                {
+                    "id": "brew_prod_024",
+                    "name": "Tahu Walik Crispy",
+                    "category_id": 4,
+                    "price": 15000,
+                    "currency": "IDR",
+                    "description": "Tahu goreng dibalik isi adonan ayam."
+                },
+                {
+                    "id": "brew_prod_025",
+                    "name": "Cireng Rujak",
+                    "category_id": 4,
+                    "price": 15000,
+                    "currency": "IDR",
+                    "description": "Aci digoreng dengan bumbu rujak pedas manis."
+                }
+            ]
+        },
+        {
+            "id": "brand_03",
+            "slug": "alfa-khas",
+            "title": "Alfa Khas",
+            "tagline": "Bawa Pulang Potongan Agam",
+            "description": "Pusat oleh-oleh kemitraan UMKM. Temukan kami di Maninjau dan Pop-up Store Bukittinggi.",
+            "banner": [
+                "./src/khas/1.png",
+                "./src/khas/2.png",
+                "./src/khas/3.png"
+            ],
+            "locations": [
+                {
+                    "id": "loc_khas_01",
+                    "name": "Galeri Utama",
+                    "is_main": true,
+                    "street": "Jl. Raya Maninjau - Bukittinggi Km 5",
+                    "latitude": "-0.3069",
+                    "longitude": "100.2291",
+                    "maps_link": "https://maps.google.com/?q=...",
+                    "phone_specific": "+6281234567893"
+                }
+            ],
+            "opening_hours": "Setiap Hari, 08.00 - 21.00 WIB",
+            "contact": {
+                "email": "store@alfasaiyosakato.com",
+                "whatsapp": "+6281234567893"
+            },
+            "features": [
+                "Produk 100% UMKM",
+                "Packing Aman",
+                "Bisa Kirim Paket"
+            ],
+            "categories": [
+                {
+                    "id": 1,
+                    "name": "Keripik & Camilan Khas",
+                    "slug": "keripik-camilan"
+                },
+                {
+                    "id": 2,
+                    "name": "Lauk Pauk & Rendang",
+                    "slug": "lauk-rendang"
+                },
+                {
+                    "id": 3,
+                    "name": "Minuman & Bumbu",
+                    "slug": "minuman-bumbu"
+                },
+                {
+                    "id": 4,
+                    "name": "Fashion & Kain",
+                    "slug": "fashion"
+                },
+                {
+                    "id": 5,
+                    "name": "Souvenir & Kerajinan",
+                    "slug": "souvenir"
+                }
+            ],
+            "products": [
+                {
+                    "id": "khas_prod_001",
+                    "name": "Keripik Sanjai Balado Panjang",
+                    "category_id": 1,
+                    "price": 25000,
+                    "currency": "IDR",
+                    "description": "Keripik singkong potong panjang balado basah (250g)."
+                },
+                {
+                    "id": "khas_prod_002",
+                    "name": "Keripik Sanjai Balado Bulat",
+                    "category_id": 1,
+                    "price": 25000,
+                    "currency": "IDR",
+                    "description": "Keripik singkong potong bulat balado (250g)."
+                },
+                {
+                    "id": "khas_prod_003",
+                    "name": "Keripik Sanjai Original (Tawar)",
+                    "category_id": 1,
+                    "price": 20000,
+                    "currency": "IDR",
+                    "description": "Keripik singkong gurih tanpa cabai (250g)."
+                },
+                {
+                    "id": "khas_prod_004",
+                    "name": "Keripik Sanjai Kuning (Asin)",
+                    "category_id": 1,
+                    "price": 22000,
+                    "currency": "IDR",
+                    "description": "Keripik singkong bumbu kunyit asin (250g)."
+                },
+                {
+                    "id": "khas_prod_005",
+                    "name": "Dakak-Dakak",
+                    "category_id": 1,
+                    "price": 25000,
+                    "currency": "IDR",
+                    "description": "Keripik singkong dadu renyah khas Minang."
+                },
+                {
+                    "id": "khas_prod_006",
+                    "name": "Karak Kaliang (Angka 8)",
+                    "category_id": 1,
+                    "price": 25000,
+                    "currency": "IDR",
+                    "description": "Kerupuk ubi berbentuk angka 8."
+                },
+                {
+                    "id": "khas_prod_007",
+                    "name": "Rakik Maco",
+                    "category_id": 1,
+                    "price": 30000,
+                    "currency": "IDR",
+                    "description": "Rempeyek dengan ikan maco kecil di atasnya."
+                },
+                {
+                    "id": "khas_prod_008",
+                    "name": "Kue Sapik",
+                    "category_id": 1,
+                    "price": 35000,
+                    "currency": "IDR",
+                    "description": "Kue semprong lipat khas Sumatera Barat."
+                },
+                {
+                    "id": "khas_prod_009",
+                    "name": "Galamai (Dodol Minang)",
+                    "category_id": 1,
+                    "price": 40000,
+                    "currency": "IDR",
+                    "description": "Dodol kenyal dari tepung beras ketan (Pack)."
+                },
+                {
+                    "id": "khas_prod_010",
+                    "name": "Kipang Kacang",
+                    "category_id": 1,
+                    "price": 20000,
+                    "currency": "IDR",
+                    "description": "Camilan manis dari kacang tanah dan gula merah."
+                },
+                {
+                    "id": "khas_prod_011",
+                    "name": "Rendang Daging Sapi (250g)",
+                    "category_id": 2,
+                    "price": 85000,
+                    "currency": "IDR",
+                    "description": "Rendang daging asli kemasan vacuum travel pack."
+                },
+                {
+                    "id": "khas_prod_012",
+                    "name": "Rendang Daging Sapi (500g)",
+                    "category_id": 2,
+                    "price": 160000,
+                    "currency": "IDR",
+                    "description": "Rendang daging asli kemasan besar."
+                },
+                {
+                    "id": "khas_prod_013",
+                    "name": "Rendang Paru (Kering)",
+                    "category_id": 2,
+                    "price": 80000,
+                    "currency": "IDR",
+                    "description": "Paru sapi dimasak rendang kering renyah."
+                },
+                {
+                    "id": "khas_prod_014",
+                    "name": "Rendang Telur Kering",
+                    "category_id": 2,
+                    "price": 40000,
+                    "currency": "IDR",
+                    "description": "Keripik rendang telur khas Payakumbuh."
+                },
+                {
+                    "id": "khas_prod_015",
+                    "name": "Rendang Suwir (Runtiah)",
+                    "category_id": 2,
+                    "price": 85000,
+                    "currency": "IDR",
+                    "description": "Daging sapi suwir dimasak rendang kering."
+                },
+                {
+                    "id": "khas_prod_016",
+                    "name": "Dendeng Balado (Basah)",
+                    "category_id": 2,
+                    "price": 90000,
+                    "currency": "IDR",
+                    "description": "Dendeng sapi dengan sambal merah basah (250g)."
+                },
+                {
+                    "id": "khas_prod_017",
+                    "name": "Dendeng Batokok (Lado Ijo)",
+                    "category_id": 2,
+                    "price": 90000,
+                    "currency": "IDR",
+                    "description": "Dendeng sapi memar dengan cabai hijau (250g)."
+                },
+                {
+                    "id": "khas_prod_018",
+                    "name": "Serundeng Kentang",
+                    "category_id": 2,
+                    "price": 35000,
+                    "currency": "IDR",
+                    "description": "Kentang parut goreng bumbu pedas manis."
+                },
+                {
+                    "id": "khas_prod_019",
+                    "name": "Ikan Bilih Goreng Maninjau",
+                    "category_id": 2,
+                    "price": 50000,
+                    "currency": "IDR",
+                    "description": "Ikan endemik Danau Maninjau digoreng kering."
+                },
+                {
+                    "id": "khas_prod_020",
+                    "name": "Palai Rinuak (Frozen)",
+                    "category_id": 2,
+                    "price": 30000,
+                    "currency": "IDR",
+                    "description": "Pepes ikan rinuak khas Maninjau (isi 5)."
+                },
+                {
+                    "id": "khas_prod_021",
+                    "name": "Kopi Bubuk Agam (Robusta)",
+                    "category_id": 3,
+                    "price": 40000,
+                    "currency": "IDR",
+                    "description": "Bubuk kopi lokal asli Agam (250g)."
+                },
+                {
+                    "id": "khas_prod_022",
+                    "name": "Kopi Bubuk Agam (Arabica)",
+                    "category_id": 3,
+                    "price": 65000,
+                    "currency": "IDR",
+                    "description": "Bubuk kopi Arabica dataran tinggi Agam (200g)."
+                },
+                {
+                    "id": "khas_prod_023",
+                    "name": "Teh Kayu Aro (Box)",
+                    "category_id": 3,
+                    "price": 15000,
+                    "currency": "IDR",
+                    "description": "Teh hitam legendaris Sumatera."
+                },
+                {
+                    "id": "khas_prod_024",
+                    "name": "Bumbu Pemasak Rendang Instan",
+                    "category_id": 3,
+                    "price": 25000,
+                    "currency": "IDR",
+                    "description": "Bumbu pasta siap pakai untuk masak rendang."
+                },
+                {
+                    "id": "khas_prod_025",
+                    "name": "Bumbu Sate Padang Instan",
+                    "category_id": 3,
+                    "price": 20000,
+                    "currency": "IDR",
+                    "description": "Bumbu kuah sate padang siap seduh."
+                },
+                {
+                    "id": "khas_prod_026",
+                    "name": "Kain Songket Pandai Sikek (Grade B)",
+                    "category_id": 4,
+                    "price": 750000,
+                    "currency": "IDR",
+                    "description": "Songket tenun tangan motif standar."
+                },
+                {
+                    "id": "khas_prod_027",
+                    "name": "Kain Songket Pandai Sikek (Grade A)",
+                    "category_id": 4,
+                    "price": 1500000,
+                    "currency": "IDR",
+                    "description": "Songket tenun tangan benang emas premium."
+                },
+                {
+                    "id": "khas_prod_028",
+                    "name": "Selendang Sulam Suji",
+                    "category_id": 4,
+                    "price": 350000,
+                    "currency": "IDR",
+                    "description": "Selendang dengan bordir sulam cair khas Koto Gadang."
+                },
+                {
+                    "id": "khas_prod_029",
+                    "name": "Bahan Baju Kurung Sulam",
+                    "category_id": 4,
+                    "price": 450000,
+                    "currency": "IDR",
+                    "description": "Bahan bakal baju dengan bordiran cantik."
+                },
+                {
+                    "id": "khas_prod_030",
+                    "name": "Mukena Bordir Kerancang (Putih)",
+                    "category_id": 4,
+                    "price": 500000,
+                    "currency": "IDR",
+                    "description": "Mukena katun dengan bordir lubang (kerancang)."
+                },
+                {
+                    "id": "khas_prod_031",
+                    "name": "Mukena Travel Parasut",
+                    "category_id": 4,
+                    "price": 120000,
+                    "currency": "IDR",
+                    "description": "Mukena bahan ringan mudah dibawa."
+                },
+                {
+                    "id": "khas_prod_032",
+                    "name": "Peci Nasional/Kopiah",
+                    "category_id": 4,
+                    "price": 60000,
+                    "currency": "IDR",
+                    "description": "Peci beludru hitam standar nasional."
+                },
+                {
+                    "id": "khas_prod_033",
+                    "name": "Tas Anyaman Pandan",
+                    "category_id": 5,
+                    "price": 85000,
+                    "currency": "IDR",
+                    "description": "Tas wanita dari anyaman daun pandan."
+                },
+                {
+                    "id": "khas_prod_034",
+                    "name": "Tas Rajut Nilon",
+                    "category_id": 5,
+                    "price": 150000,
+                    "currency": "IDR",
+                    "description": "Tas kerajinan tangan benang nilon."
+                },
+                {
+                    "id": "khas_prod_035",
+                    "name": "Dompet Etnik Minang",
+                    "category_id": 5,
+                    "price": 45000,
+                    "currency": "IDR",
+                    "description": "Dompet kecil motif kain songket."
+                },
+                {
+                    "id": "khas_prod_036",
+                    "name": "Kaos 'I Love Agam'",
+                    "category_id": 4,
+                    "price": 85000,
+                    "currency": "IDR",
+                    "description": "Kaos katun sablon desain Agam."
+                },
+                {
+                    "id": "khas_prod_037",
+                    "name": "Kaos 'Jam Gadang'",
+                    "category_id": 4,
+                    "price": 85000,
+                    "currency": "IDR",
+                    "description": "Kaos katun sablon ikon Bukittinggi."
+                },
+                {
+                    "id": "khas_prod_038",
+                    "name": "Kaos Kata-Kata Minang",
+                    "category_id": 4,
+                    "price": 85000,
+                    "currency": "IDR",
+                    "description": "Kaos dengan pantun/pepatah lucu Minang."
+                },
+                {
+                    "id": "khas_prod_039",
+                    "name": "Gantungan Kunci Rumah Gadang",
+                    "category_id": 5,
+                    "price": 10000,
+                    "currency": "IDR",
+                    "description": "Souvenir kecil gantungan kunci karet/kayu."
+                },
+                {
+                    "id": "khas_prod_040",
+                    "name": "Magnet Kulkas Danau Maninjau",
+                    "category_id": 5,
+                    "price": 15000,
+                    "currency": "IDR",
+                    "description": "Hiasan magnet kulkas pemandangan."
+                },
+                {
+                    "id": "khas_prod_041",
+                    "name": "Miniatur Rumah Gadang (Kecil)",
+                    "category_id": 5,
+                    "price": 150000,
+                    "currency": "IDR",
+                    "description": "Pajangan meja bentuk rumah adat dari kaca/kayu."
+                },
+                {
+                    "id": "khas_prod_042",
+                    "name": "Sandal Ukir Nama",
+                    "category_id": 5,
+                    "price": 35000,
+                    "currency": "IDR",
+                    "description": "Sandal jepit dengan ukiran custom."
+                },
+                {
+                    "id": "khas_prod_043",
+                    "name": "Topi Bordir Agam",
+                    "category_id": 4,
+                    "price": 50000,
+                    "currency": "IDR",
+                    "description": "Topi baseball dengan tulisan bordir."
+                },
+                {
+                    "id": "khas_prod_044",
+                    "name": "Totebag Kanvas Motif",
+                    "category_id": 5,
+                    "price": 65000,
+                    "currency": "IDR",
+                    "description": "Tas bahu kanvas motif etnik."
+                },
+                {
+                    "id": "khas_prod_045",
+                    "name": "Minyak Angin/Urut Khas",
+                    "category_id": 5,
+                    "price": 25000,
+                    "currency": "IDR",
+                    "description": "Minyak gosok tradisional ramuan kampung."
+                },
+                {
+                    "id": "khas_prod_046",
+                    "name": "Keripik Pisang Manis",
+                    "category_id": 1,
+                    "price": 20000,
+                    "currency": "IDR",
+                    "description": "Keripik pisang kepok rasa manis."
+                },
+                {
+                    "id": "khas_prod_047",
+                    "name": "Keripik Pisang Asin",
+                    "category_id": 1,
+                    "price": 20000,
+                    "currency": "IDR",
+                    "description": "Keripik pisang kepok rasa gurih."
+                },
+                {
+                    "id": "khas_prod_048",
+                    "name": "Emping Melinjo Balado",
+                    "category_id": 1,
+                    "price": 35000,
+                    "currency": "IDR",
+                    "description": "Kerupuk emping dengan bumbu balado."
+                }
+            ]
+        },
+        {
+            "id": "brand_04",
+            "slug": "alfa-stay",
+            "title": "Alfa Stay",
+            "tagline": "Rumah Anda di Ranah Minang",
+            "description": "Pilihan akomodasi nyaman. Tersedia Homestay keluarga dan Villa privat.",
+            "banner": [
+                "./src/stay/1.png",
+                "./src/stay/2.png",
+                "./src/stay/3.png"
+            ],
+            "locations": [
+                {
+                    "id": "loc_stay_01",
+                    "name": "Alfa Homestay (Unit Keluarga)",
+                    "is_main": true,
+                    "street": "Jl. Permai No. 12, Maninjau",
+                    "latitude": "-0.2900",
+                    "longitude": "100.2000",
+                    "maps_link": "https://maps.google.com/?q=...",
+                    "phone_specific": "+6281234567894"
+                }
+            ],
+            "opening_hours": "Resepsionis 24 Jam",
+            "contact": {
+                "email": "stay@alfasaiyosakato.com",
+                "whatsapp": "+6281234567894"
+            },
+            "features": [
+                "Air Panas",
+                "Sarapan Gratis",
+                "View Danau"
+            ],
+            "categories": [
+                {
+                    "id": 1,
+                    "name": "Kamar (Rooms)",
+                    "slug": "rooms"
+                },
+                {
+                    "id": 2,
+                    "name": "Paket Spesial",
+                    "slug": "packages"
+                },
+                {
+                    "id": 3,
+                    "name": "Fasilitas & Sewa",
+                    "slug": "amenities"
+                }
+            ],
+            "services": [
+                {
+                    "id": "stay_srv_001",
+                    "name": "Standard Room (Twin)",
+                    "category_id": 1,
+                    "price": 250000,
+                    "currency": "IDR",
+                    "description": "Kamar 2 single bed, kipas angin, kamar mandi dalam."
+                },
+                {
+                    "id": "stay_srv_002",
+                    "name": "Standard Room (Double)",
+                    "category_id": 1,
+                    "price": 250000,
+                    "currency": "IDR",
+                    "description": "Kamar 1 queen bed, kipas angin, kamar mandi dalam."
+                },
+                {
+                    "id": "stay_srv_003",
+                    "name": "Deluxe Room Lake View",
+                    "category_id": 1,
+                    "price": 350000,
+                    "currency": "IDR",
+                    "description": "Kamar AC dengan balkon menghadap danau."
+                },
+                {
+                    "id": "stay_srv_004",
+                    "name": "Family Room (4 Pax)",
+                    "category_id": 1,
+                    "price": 500000,
+                    "currency": "IDR",
+                    "description": "Kamar besar, 2 King bed, AC, TV, Area duduk."
+                },
+                {
+                    "id": "stay_srv_005",
+                    "name": "Executive Suite",
+                    "category_id": 1,
+                    "price": 650000,
+                    "currency": "IDR",
+                    "description": "Kamar terbaik, Bathtub, AC, Balkon Privat, Smart TV."
+                },
+                {
+                    "id": "stay_srv_006",
+                    "name": "Extra Bed",
+                    "category_id": 3,
+                    "price": 75000,
+                    "currency": "IDR",
+                    "description": "Kasur tambahan lantai + bantal selimut."
+                },
+                {
+                    "id": "stay_srv_007",
+                    "name": "Paket Honeymoon (3D2N)",
+                    "category_id": 2,
+                    "price": 1200000,
+                    "currency": "IDR",
+                    "description": "Menginap 2 malam Deluxe + Dekorasi + Makan Malam Romantis."
+                },
+                {
+                    "id": "stay_srv_008",
+                    "name": "Paket Family Weekend (3D2N)",
+                    "category_id": 2,
+                    "price": 1500000,
+                    "currency": "IDR",
+                    "description": "Menginap 2 malam Family Room + BBQ Night."
+                },
+                {
+                    "id": "stay_srv_009",
+                    "name": "Sewa Alat BBQ",
+                    "category_id": 3,
+                    "price": 100000,
+                    "currency": "IDR",
+                    "description": "Peminjaman panggangan, arang, dan peralatan makan."
+                },
+                {
+                    "id": "stay_srv_010",
+                    "name": "Sewa Sepeda Gunung",
+                    "category_id": 3,
+                    "price": 35000,
+                    "currency": "IDR",
+                    "description": "Sewa sepeda per 3 jam untuk keliling kampung."
+                },
+                {
+                    "id": "stay_srv_011",
+                    "name": "Sewa Tenda Camping",
+                    "category_id": 3,
+                    "price": 150000,
+                    "currency": "IDR",
+                    "description": "Tenda kapasitas 4 orang dipasang di halaman view danau."
+                },
+                {
+                    "id": "stay_srv_012",
+                    "name": "Breakfast Tambahan",
+                    "category_id": 3,
+                    "price": 30000,
+                    "currency": "IDR",
+                    "description": "Sarapan buffet/ala carte untuk tamu tambahan."
+                },
+                {
+                    "id": "stay_srv_013",
+                    "name": "Late Check-out (s/d jam 15.00)",
+                    "category_id": 3,
+                    "price": 100000,
+                    "currency": "IDR",
+                    "description": "Perpanjangan waktu check-out (tergantung ketersediaan)."
+                },
+                {
+                    "id": "stay_srv_014",
+                    "name": "Laundry Kilat (Per Kg)",
+                    "category_id": 3,
+                    "price": 15000,
+                    "currency": "IDR",
+                    "description": "Cuci kering lipat pakaian tamu selesai 4 jam."
+                }
+            ]
+        },
+        {
+            "id": "brand_05",
+            "slug": "alfa-go",
+            "title": "Alfa Go",
+            "tagline": "Jelajah Tanpa Batas",
+            "description": "Layanan transportasi & wisata. Kantor pusat di Maninjau, titik jemput di Bandara BIM.",
+            "banner": [
+                "./src/travel/1.png",
+                "./src/travel/2.png",
+                "./src/travel/3.png"
+            ],
+            "locations": [
+                {
+                    "id": "loc_go_01",
+                    "name": "Kantor Operasional Agam",
+                    "is_main": true,
+                    "street": "Jl. Raya Maninjau - Bukittinggi Km 5",
+                    "latitude": "-0.3069",
+                    "longitude": "100.2291",
+                    "maps_link": "https://maps.google.com/?q=...",
+                    "phone_specific": "+6281234567895"
+                }
+            ],
+            "opening_hours": "08.00 - 17.00 WIB",
+            "contact": {
+                "email": "go@alfasaiyosakato.com",
+                "whatsapp": "+6281234567895"
+            },
+            "features": [
+                "Driver Ramah",
+                "Armada Terawat",
+                "Konsultasi Rute"
+            ],
+            "categories": [
+                {
+                    "id": 1,
+                    "name": "Sewa Mobil (Car Rental)",
+                    "slug": "rental"
+                },
+                {
+                    "id": 2,
+                    "name": "Antar Jemput (Transfer)",
+                    "slug": "transfer"
+                },
+                {
+                    "id": 3,
+                    "name": "Paket Wisata (Tour)",
+                    "slug": "tour"
+                }
+            ],
+            "services": [
+                {
+                    "id": "go_srv_001",
+                    "name": "Sewa Mobil Innova Reborn + Driver",
+                    "category_id": 1,
+                    "price": 750000,
+                    "currency": "IDR",
+                    "description": "Sewa per hari (12 Jam) dalam provinsi Sumbar. BBM ditanggung penyewa."
+                },
+                {
+                    "id": "go_srv_002",
+                    "name": "Sewa Mobil Avanza/Xenia + Driver",
+                    "category_id": 1,
+                    "price": 550000,
+                    "currency": "IDR",
+                    "description": "Sewa per hari (12 Jam) dalam provinsi Sumbar. BBM ditanggung penyewa."
+                },
+                {
+                    "id": "go_srv_003",
+                    "name": "Sewa HiAce Commuter (14 Seat)",
+                    "category_id": 1,
+                    "price": 1200000,
+                    "currency": "IDR",
+                    "description": "Cocok untuk rombongan. Sudah termasuk Driver. Belum BBM."
+                },
+                {
+                    "id": "go_srv_004",
+                    "name": "Antar Jemput Bandara BIM - Maninjau",
+                    "category_id": 2,
+                    "price": 500000,
+                    "currency": "IDR",
+                    "description": "Sekali jalan (Drop off/Pick up). All in (BBM + Parkir)."
+                },
+                {
+                    "id": "go_srv_005",
+                    "name": "Paket Tour 'Kelok 44' (One Day)",
+                    "category_id": 3,
+                    "price": 400000,
+                    "currency": "IDR",
+                    "description": "Per Pax (Min 4 org). Rute: Maninjau - Kelok 44 - Puncak Lawang - Bukittinggi."
+                },
+                {
+                    "id": "go_srv_006",
+                    "name": "Paket Tour 'Lembah Harau' (One Day)",
+                    "category_id": 3,
+                    "price": 450000,
+                    "currency": "IDR",
+                    "description": "Per Pax (Min 4 org). Rute: Bukittinggi - Kelok 9 - Lembah Harau."
+                }
+            ]
+        }
+    ]
+}
