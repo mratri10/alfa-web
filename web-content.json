@@ -2,7 +2,7 @@
     "site_meta": {
         "title": "ALFA Saiyo Sakato",
         "description": "Ekosistem pariwisata dan layanan terpadu di Kabupaten Agam. One Stop Service untuk kenyamanan perjalanan Anda.",
-        "favicon": "./src/logo.png",
+        "favicon": "/assets/logo.png",
         "contact_global": {
             "whatsapp": "+6281234567890",
             "email": "hello@alfasaiyosakato.com"
@@ -16,9 +16,9 @@
             "tagline": "Kilap Kilat Sebelum Berangkat",
             "description": "Layanan pencucian kendaraan profesional dengan teknologi hidrolik terkini. Tersedia di berbagai titik strategis Agam.",
             "banner": [
-                "./src/cuci/1.png",
-                "./src/cuci/2.png",
-                "./src/cuci/3.png"
+                "/assets/cuci/1.png",
+                "/assets/cuci/2.png",
+                "/assets/cuci/3.png"
             ],
             "locations": [
                 {
@@ -133,9 +133,9 @@
             "tagline": "Cita Rasa Kopi Asli Agam",
             "description": "Nikmati kopi lokal terbaik dengan pemandangan alam. Hadir dengan konsep Cafe menetap dan Mobile Truck.",
             "banner": [
-                "./src/cafe/1.png",
-                "./src/cafe/2.png",
-                "./src/cafe/3.png"
+                "/assets/cafe/1.png",
+                "/assets/cafe/2.png",
+                "/assets/cafe/3.png"
             ],
             "locations": [
                 {
@@ -391,9 +391,9 @@
             "tagline": "Bawa Pulang Potongan Agam",
             "description": "Pusat oleh-oleh kemitraan UMKM. Temukan kami di Maninjau dan Pop-up Store Bukittinggi.",
             "banner": [
-                "./src/khas/1.png",
-                "./src/khas/2.png",
-                "./src/khas/3.png"
+                "/assets/khas/1.png",
+                "/assets/khas/2.png",
+                "/assets/khas/3.png"
             ],
             "locations": [
                 {
@@ -838,9 +838,9 @@
             "tagline": "Rumah Anda di Ranah Minang",
             "description": "Pilihan akomodasi nyaman. Tersedia Homestay keluarga dan Villa privat.",
             "banner": [
-                "./src/stay/1.png",
-                "./src/stay/2.png",
-                "./src/stay/3.png"
+                "/assets/stay/1.png",
+                "/assets/stay/2.png",
+                "/assets/stay/3.png"
             ],
             "locations": [
                 {
@@ -1003,9 +1003,9 @@
             "tagline": "Jelajah Tanpa Batas",
             "description": "Layanan transportasi & wisata. Kantor pusat di Maninjau, titik jemput di Bandara BIM.",
             "banner": [
-                "./src/travel/1.png",
-                "./src/travel/2.png",
-                "./src/travel/3.png"
+                "/assets/travel/1.png",
+                "/assets/travel/2.png",
+                "/assets/travel/3.png"
             ],
             "locations": [
                 {
